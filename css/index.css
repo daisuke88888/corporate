@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  position: static;
+  color: #000;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.header__ttl {
+  font-size: 24px;
+  width: 80px;
+}
+.header__nav-list {
+  display: flex;
+  font-weight: bold;
+  padding-left: 0 0;
+}
+.header__nav-item:not(:last-child) {
+  margin-right: 30px;
+}
