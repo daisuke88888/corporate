@@ -60,10 +60,9 @@ a {
 
 .top-mv-sub {
   position: relative;
-  width: 100%;
-  height: 30vh;
   background: #000;
   color: #fff;
+  margin: auto;
 }
 .top-mv-sub-description {
   width: 80%;
@@ -73,15 +72,15 @@ a {
 }
 .top-mv-sub__ttl {
   display: flex;
-  font-size: 28px;
+  font-size: 25px;
   padding-top: 30px;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 .top-mv-sub__text {
   font-size: 15px;
   display: flex;
   line-height: 1.5;
-  padding: 20px 30px;
+  padding: 50px 50px;
 }
 
 .top-service {
@@ -98,8 +97,14 @@ a {
   align-items: center;
 }
 .top-service-box {
-  width: 200px;
-  margin: auto;
+  width: 40%;
+  margin: 5%;
+}
+.top-service-box__ttl {
+margin: 10px 0;
+}
+.top-service-box__text {
+  line-height: 1.5;
 }
 .top-service-box__btn {
   width: 200px;
@@ -109,4 +114,104 @@ a {
   text-align: center;
   margin: 20px auto;
   display: block;
+}
+.top-news {
+  background: #000;
+  padding-bottom: 30px;
+}
+.top-news__description {
+  width: 80%;
+  margin: 0 auto;
+}
+.top-news__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.top-news__ttl {
+  color: #fff;
+  font-size: 25px;
+}
+.top-news__btn {
+  width: 150px;
+  padding: 10px;
+  color: #fff;
+  background: crimson;
+  text-align: center;
+  margin: 10px 0;
+  display: block;
+}
+.top-news__list {
+  margin: 0 auto;
+}
+.top-news__item {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+.top-news__link-data {
+  padding-right: 10px;
+  font-size: 12px;
+}
+.top-news__link-text {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.top-blog {
+  width: 100%;
+  margin-top: 30px;
+}
+.top-blog__ttl {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.top-blog__list {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+.top-blog__item {
+  margin-right: 10px;
+}
+.top-blog__item-data {
+  margin: 10px 0;
+  font-size: 12px;
+}
+.top-blog__item-text {
+  font-size: 13px;
+  font-weight: bold;
+}
+.top-blog__btn {
+  width: 200px;
+  padding: 10px;
+  color: #fff;
+  background: crimson;
+  text-align: center;
+  margin: 30px auto;
+  display: block;
+}
+
+.top-company-list {
+  display: flex;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  background: linear-gradient(90deg,crimson 50%,#000 50%);
+}
+.top-company-item {
+  display: inline-block;
+  width: 100%;
+  line-height: 10;
+  text-align: center;
+}
+.top-company-link {
+  width: 100%;
+  background: crimson;
+}
+.top-recruit-link {
+  background: #000;
 }
