@@ -113,6 +113,7 @@ margin: 10px 0;
   text-align: center;
   margin: 20px auto;
   display: block;
+  font-weight: bold;
 }
 .top-news {
   background: #000;
@@ -141,6 +142,7 @@ margin: 10px 0;
   text-align: center;
   margin: 10px 0;
   display: block;
+  font-weight: bold;
 }
 .top-news__list {
   margin: 0 auto;
@@ -192,6 +194,7 @@ margin: 10px 0;
   text-align: center;
   margin: 30px auto;
   display: block;
+  font-weight: bold;
 }
 
 .top-company-list {
@@ -240,6 +243,7 @@ margin: 10px 0;
   text-align: center;
   margin: 0 auto;
   display: block;
+  font-weight: bold;
 }
 
 .footer {
@@ -263,4 +267,7 @@ margin: 10px 0;
 .footer-nav__item {
   border-left: 1px solid #fff;
   padding: 0 10px;
+}
+.footer-nav__item:first-child {
+  border-left: none;
 }

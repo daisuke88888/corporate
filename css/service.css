@@ -1,0 +1,139 @@
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  position: static;
+  color: #000;
+  top: 0;
+  left: 0;
+}
+.header__nav {
+  margin: 0 0 0 auto;
+}
+.header__ttl {
+  font-size: 24px;
+  width: 80px;
+}
+.header__nav-list {
+  display: flex;
+  font-weight: bold;
+  padding-right: 0;
+}
+.header__nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.top-mv {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  height: 85vh;
+  background: url(../img/mv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  line-height: 2;
+}
+.top-mv__center {
+  width: 80%;
+  margin: auto;
+}
+.top-mv__text {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.top-inquiry {
+  width: 100%;
+  background: ghostwhite;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.top-inquiry__ttl {
+  font-size: 24px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+.top-inquiry__text {
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+.top-inquiry__btn {
+  width: 200px;
+  padding: 10px;
+  color: #fff;
+  background: crimson;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-weight: bold;
+}
+
+.service {
+  margin-top: 50px;
+  width: 100%;
+}
+.service-list {
+  width: 90%;
+  margin: 50px auto;
+}
+.service-item {
+  display: flex; /*横並び*/
+  flex-wrap: wrap; /*折り返して表示*/
+  border-top: 1px solid #000;
+  border-bottom: none;
+}
+.service-item:last-child {
+  border-bottom: 1px solid #000;
+}
+.service-igm {
+  width: 30%;
+  padding: 20px 0; 
+}
+.service-detail {
+  width: 50%;
+  padding: 20px 0;
+  padding-left: 20px;
+}
+.service-item__ttl {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.service-item__text {
+  line-height: 1.5;
+}
+.footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 10px;
+}
+.footer-inner {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.footer-nav__list {
+  display: flex;
+}
+.footer-nav {
+  margin: 0 0 0 auto;
+}
+.footer-nav__item {
+  border-left: 1px solid #fff;
+  padding: 0 10px;
+}
+.footer-nav__item:first-child {
+  border-left: none;
+}
