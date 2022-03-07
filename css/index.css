@@ -38,6 +38,12 @@ a {
 .header__nav-item:not(:last-child) {
   margin-right: 30px;
 }
+.menu {
+  display: none;
+}
+.darwer-nav {
+  display: none;
+}
 
 .top-mv {
   width: 100%;
