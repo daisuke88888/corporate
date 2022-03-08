@@ -12,13 +12,12 @@ a {
 .header {
   background-color: #fff;
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   height: 70px;
   margin: 0 auto;
   padding: 0 30px;
-  position: fixed;/*固定位置*/
+  position: sticky;/*固定位置*/
   color: #000;
   top: 0;
   left: 0;
@@ -261,19 +260,24 @@ margin: 10px 0;
 }
 
 .footer {
-  width: 100%;
   background: #000;
   color: #fff;
   padding: 20px 0;
   font-size: 10px;
 }
 .footer-inner {
-  width: 90%;
+  width: 85%;
   margin: auto;
+  padding: 20px 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
 }
 .footer-nav__list {
   display: flex;
+  flex-wrap: wrap;
 }
 .footer-nav {
   margin: 0 0 0 auto;
@@ -304,7 +308,7 @@ margin: 10px 0;
     z-index: 10;
   }
 
-  .menu__line--top,
+  /* .menu__line--top,
   .menu__line--middle,
   .menu__line--bottom {
     display: inline-block;
@@ -313,7 +317,7 @@ margin: 10px 0;
     background-color: #000;
     position: absolute;
     transition: 0.5s;
-  }
+  } */
 
   .menu-line-top {
     top: 0;
@@ -362,4 +366,15 @@ margin: 10px 0;
     color: #0033cc;
     font-size: 18px;
   }
+  .top-service-box {
+  width: 80%;
+  margin: 10px auto;
+  align-items: center;
+}
+.top-blog__list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
 }
