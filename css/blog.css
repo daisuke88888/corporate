@@ -255,6 +255,9 @@ a {
   flex-wrap: wrap;
   margin: 10px auto;
 }
+.top-blog__item {
+  width: 100%;
+}
 .footer-inner {
   display: block;/*ブッロク*/
   text-align: center;/*センター*/
