@@ -307,7 +307,6 @@ margin: 10px 0;
     position: relative;
     z-index: 10;
   }
-
   .menu__line--top,
   .menu__line--middle,
   .menu__line--bottom {
@@ -346,7 +345,7 @@ margin: 10px 0;
     transform: rotate(-45deg);
   }
 
-  .drawer-nav{
+  .drawer-nav {
     display: block;
     position: absolute;
     height: 100vh;
@@ -356,7 +355,9 @@ margin: 10px 0;
     background: #fff;
     transition: .7s;
   }
-
+.in {
+    transform: translateX(100%);
+}
   .drawer-nav-list {
     padding-top: 80px;
     text-align: center;
